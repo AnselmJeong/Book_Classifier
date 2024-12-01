@@ -22,11 +22,12 @@ CATEGORIES
 {categories} 
 """
 
+toml_path = 'data/categories.toml'
 
 def get_chain(file_type: Literal["articles", "books"]) -> Runnable:
     # Load categories from the toml file
     try:
-        categories = load("categories.toml")[file_type]["CATEGORIES"]
+        categories = load(toml_path)[file_type]["CATEGORIES"]
     except FileNotFoundError:
         print("'categories.toml' file not found.")
         exit(1)

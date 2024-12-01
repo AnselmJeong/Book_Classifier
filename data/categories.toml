@@ -1,4 +1,4 @@
-[Books]
+[books]
 CATEGORIES = [  
     "Visual Art",
     "Literature",
@@ -53,7 +53,7 @@ CATEGORIES = [
     "Others"
 ]
 
-[Articles]
+[articles]
 CATEGORIES = [
     "Neuroscience and Brain Function",
     "Mental Health and Psychiatry",
