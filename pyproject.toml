@@ -1,0 +1,14 @@
+[project]
+name = "book-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "langchain-core>=0.3.21",
+    "langchain-ollama>=0.2.0",
+    "langchain-openai>=0.2.10",
+    "toml>=0.10.2",
+]
